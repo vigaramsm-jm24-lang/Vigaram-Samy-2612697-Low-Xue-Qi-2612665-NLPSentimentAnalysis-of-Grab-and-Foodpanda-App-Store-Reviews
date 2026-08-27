@@ -1,0 +1,9 @@
+setting,value
+random_state,42
+raw_candidate_sample,59205
+balanced_real_rows,21585
+curated_training_patterns,630
+held_out_real_test_rows,4317
+label_source,review text only; star ratings excluded from target
+contrast_rule,post-but/tapi/however/yet clause gets explicit focus features
+evaluation_rule,main accuracy uses real held-out reviews; curated patterns are train-only

@@ -1,0 +1,34 @@
+challenge_id,review,expected_sentiment,language_pattern,pattern_type
+CH001,"The food was delicious, but I don't like it",negative,English,contrast_tail
+CH002,Food delicious but the taste is horrible,negative,English,contrast_tail
+CH003,"Delivery was fast, however the meal was not fresh",negative,English,contrast_tail
+CH004,Nice packaging yet I cannot recommend this food,negative,English,contrast_tail
+CH005,Looks amazing but tastes disgusting,negative,English,contrast_tail
+CH006,Promo was good tapi app tak boleh guna,negative,Manglish,contrast_tail
+CH007,Delivery fast tapi food tak sedap,negative,Manglish,contrast_tail
+CH008,Makanan nampak cantik tetapi saya tak puas hati,negative,Malay,contrast_tail
+CH009,Driver cepat tapi service teruk,negative,Manglish,contrast_tail
+CH010,Harga murah but food basi,negative,Manglish,contrast_tail
+CH011,I do not enjoy this meal,negative,English,negation
+CH012,The order has never arrived,negative,English,negation
+CH013,Tak sedap langsung,negative,Malay,negation
+CH014,Saya memang tak puas hati,negative,Malay,negation
+CH015,Food 🤮,negative,Emoji,emoji
+CH016,Not gud,negative,Non-standard English,negation_spelling
+CH017,Food is not guudd,negative,Non-standard English,negation_spelling
+CH018,Makanan tak gud,negative,Manglish,negation_spelling
+CH019,"At first the app was slow, but checkout worked perfectly",positive,English,contrast_tail
+CH020,"Food arrived cold, however the restaurant replaced it quickly",positive,English,contrast_tail
+CH021,The driver got lost but he was very helpful,positive,English,contrast_tail
+CH022,Packaging rosak tapi makanan sedap,positive,Manglish,contrast_tail
+CH023,Mula lambat tetapi akhirnya service bagus,positive,Malay,contrast_tail
+CH024,Not bad at all,positive,English,idiom
+CH025,No issue with my order,positive,English,idiom
+CH026,Sedap gila and delivery very fast,positive,Manglish,direct
+CH027,Saya sangat puas hati,positive,Malay,direct
+CH028,Food 😍 and driver 👍,positive,Emoji,emoji
+CH029,The order contains one burger,neutral,English,factual
+CH030,Delivery arrived at eight pm,neutral,English,factual
+CH031,I paid using an online wallet,neutral,English,factual
+CH032,Saya order satu nasi,neutral,Malay,factual
+CH033,Driver call masa sampai,neutral,Manglish,factual

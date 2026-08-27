@@ -1,0 +1,26 @@
+HOW TO START THE APP (WINDOWS)
+================================
+
+1. Extract the complete ZIP file.
+2. Open the extracted project folder.
+3. Double-click run_app.bat.
+4. On the first run, wait while the compatible Python packages are installed.
+5. The browser should open automatically at http://localhost:8501.
+
+The App lets you choose Linear SVM or Naive Bayes, type a review, and displays:
+  Positive 😊   Neutral 😐   Negative 😞
+
+IMPORTANT:
+Do not start the App with "python app.py". That causes the
+"missing ScriptRunContext" bare-mode warning.
+
+Manual command in visual studio code terminal (run inside this project folder):
+  if first time without venv (might take some time)
+    & "(file path to python.exe)" -m venv .venv
+    .venv\Scripts\python -m pip install -r requirements.txt
+    .venv\Scripts\python -m streamlit run app.py
+
+  after can just run this
+    python -m pip install -r requirements.txt
+    python -m streamlit run app.py
+
